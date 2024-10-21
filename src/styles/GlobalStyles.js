@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components';
+
+export const GlobalStyles = createGlobalStyle`
 *,
 *::after,
 *::before {
@@ -6,6 +9,7 @@
 
 body {
   margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 img {
@@ -24,3 +28,4 @@ a {
   text-decoration: none;
   color: inherit;
 }
+`;
